@@ -1,0 +1,216 @@
+/* mobile vs tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header_app__ipab {
+
+        display: block;
+    }
+    
+    .header_search {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .slider_img {
+       height: auto;
+    }
+
+    /* content */
+    .content_Highlights_img {
+        width: 235px;
+        height: 293px;
+    }
+
+    .content_Endow_img {
+        width: 341px;
+        height:149px;
+    }
+
+    .content_user_manual_img {
+        width: 270px;
+    }
+
+    .looking_accommodation_introduce_qr {
+        margin-top: 20px;
+    }
+
+    .looking_accommodation_img {
+        margin-top: 30px;
+    }
+
+    /* footer */
+    .footer_menu_heading {
+        margin-top: 30px;
+    }
+
+    .footer_menu_qr_code {
+        display: none;
+    }
+
+    .footer_menu_qr_app_img {
+        width: 180px;
+        height:56px;
+    }
+
+    .footer_wodget_pay {
+        margin: 0;
+    }
+
+    .footer_widget_img_pay {
+        width: 77px;
+        height: 46px;
+    }
+   
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .footer_rule_sub,
+    .footer_widget,
+    .footer_menu,
+    .slider,
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
+
+    .header_search {
+        margin: 0 15px;
+        width: 100%;
+    }
+
+    .header_ipab {
+        height: 64px;
+    }
+    .header_app__ipab {
+        display: block;
+        height: 64px;
+        
+    }
+
+    .slider {
+        margin-top: 120px;
+    }
+
+    .slider_img {
+        height: 62px;
+        border-radius: 10px;
+    }
+
+    .content_Highlights_img {
+        width: 128px;
+        height: 160px;
+    }
+
+    .content_Endow_img {
+        width: 254px;
+        height: 135px;
+    }
+
+    .content_Suggestions_discovery_item {
+        width: 254px;
+        height: 158px;
+    }
+
+    .post__title_sub {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+
+    .post__category_heading {
+        font-size: 1.2rem;
+        text-transform: none;
+        padding: 3px 10px;
+    }
+
+    .post__category,
+    .post__title {
+        padding: 18px;
+    }
+
+    .looking_accommodation_introduce_qr {
+        margin: 0;
+    }
+
+    .content_user_manual,
+    .content_Highlights,
+    .content_Endow_title,
+    .content_Suggestions_discovery,
+    .content_suggestions_luxstay {
+        margin-top: 40px;
+    }
+
+    .content_sub_text,
+    .content_Welcome_sub {
+        line-height: 1.6;
+    }
+
+    .content_suggestions_luxstay_img {
+        width: 254px;
+        height: 158px;
+    }
+
+    .content_Welcome {
+        margin: 0;
+    }
+
+    .svg-icon_content {
+        width: 150px;
+        height: 30px;
+    }
+
+    .looking_accommodation_heading {
+        font-size: 2rem;
+    }
+
+    .accommodation_introduce_app_img {
+        margin: 10px 0;
+    }
+
+    .looking_accommodation_img {
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .footer_wodget_pay {
+        margin: 0;
+    }
+
+    .footer_widget_img_pay {
+        width: 93px;
+        height: 59px;
+    }
+
+    .footer_widget_img {
+        width: 132px;
+        height: 50px;
+    }
+
+    .footer_widget {
+        margin-top: 40px;
+    }
+
+    .footer_rule {
+        padding: 10px 0;
+        background-color: #f6f6f6;
+    }
+
+    .footer_rule_text {
+        margin-top: 10px;
+    }
+
+    .footer_rule_sub {
+        margin: 0;
+    }
+}
